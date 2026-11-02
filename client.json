@@ -1,0 +1,12 @@
+{
+  "client_id": "https://hicktox.github.io/mcp-client/client.json",
+  "client_name": "Personal MCP client",
+  "redirect_uris": [
+    "http://localhost:3001/api/connector/callback",
+    "http://127.0.0.1:3001/api/connector/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "application_type": "native"
+}
